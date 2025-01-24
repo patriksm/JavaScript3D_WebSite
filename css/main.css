@@ -1,0 +1,22 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header, #main-frame, #footer {
+    width: 100vw;
+    height: 100vh;
+}
+
+#header {
+    background-color: violet;
+}
+
+#main-frame {
+    background-color: blueviolet;
+}
+
+#footer {
+    height: 100vh;
+    background-color: gainsboro;
+}
