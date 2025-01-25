@@ -6,6 +6,51 @@
     font-style: normal;
 }
 
+.type-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-child {
+    padding: 5%;
+    font-size: xx-large;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+}
+
+img.img-intro {
+    width: 25vw;
+}
+
+@media
+only screen and (max-width: 960px){
+    .type-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-child {
+        padding: 5%;
+        font-size: xx-large;
+        /* text-align: justify;
+        text-justify: inter-word; */
+        color: white;
+    }
+
+    img.img-intro {
+        width: 90vw;
+    }
+
+    #header, #main-frame, #footer {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
 #header, #main-frame, #footer {
     width: 98vw;
     height: 100vh;
