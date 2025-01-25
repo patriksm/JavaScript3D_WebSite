@@ -1,6 +1,9 @@
 * {
     margin: 0 auto;
     padding: 0;
+    font-family: 'Arial';
+    font-weight: normal;
+    font-style: normal;
 }
 
 #header, #main-frame, #footer {
